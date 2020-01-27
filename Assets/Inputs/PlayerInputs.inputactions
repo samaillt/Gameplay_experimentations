@@ -1,0 +1,90 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0f580f1c-d933-471c-bb65-707c9b483c96",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "abdce887-b8cc-48c3-ab53-581ec74eaf3c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2b34cbfd-8675-4382-bc96-7ac9141b9476",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CameraLook",
+                    "type": "Value",
+                    "id": "6eb1e1d0-0b3c-4227-b2f5-1a8f1fe31793",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Join",
+                    "type": "Button",
+                    "id": "705adc9d-3896-4e81-890c-8dd185293fa9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7c494b82-9b3c-4e9c-819a-d0f98791646f",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6675117-6776-4a51-8676-9c886702a8e5",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4846b672-91d4-47e3-8042-e8b42db4098c",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cfd4cd34-918c-4edb-8ce9-3e6732a0b0f6",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Join",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
